@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client a modifier</title>
+</head>
+<body>
+    <form action="selection.php" method="POST" >
+        <table><caption>recherche des employés </caption>
+            <tr>
+                <td>critere de recherche  </td>
+                <td><select name="critere">
+
+                    <option value="codemp">code employe </option>
+                    <option value="nomemp">nom employe</option>
+                    <option value="prenemp">prenom employe</option>
+                    <option value="dnemp">date de naissance employe</option>
+                    <option value="adremp">adresse employe</option>
+                    <option value="salaire">salaire employe</option>
+                </select></td>
+
+            </tr><tr><td>vàleur </td><td><input type="text" name="valeur" id=""></td></tr>
+            <tr>
+                <td><input type="reset"  value="Annuler"></td>
+                <td><input type="submit"  value="rechercher"></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
